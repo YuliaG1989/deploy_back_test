@@ -27,7 +27,7 @@ SECRET_KEY = '8+620sabgrqbd36#l@5(+-*s2mfb#69xqsc5hxscc($@zd7i(+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'sample-deploy.onrender.com']
+ALLOWED_HOSTS = ['localhost', 'secret-atoll-51940.herokuapp.com']
 
 
 # Application definition
