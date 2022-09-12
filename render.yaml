@@ -1,0 +1,13 @@
+services: 
+- type: web
+  name: djangotutorial
+  env: python
+  buildCommand: "./build.sh"        # ensure it's a string
+  startCommand: cd django_marvel && gunicorn django_marvel.wsgi:application
+  repo: https://github.com/YuliaG1989/deploy_back_test # optional
+  # plan: standard # optional
+  healthCheckPath: /
+  # autoDeploy: false             # optional
+  envVars:
+  - key: SECRET_KEY
+    generateValue: true  
