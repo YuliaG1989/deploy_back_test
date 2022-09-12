@@ -1,1 +1,1 @@
-web: gunicorn marvel_api.wsgi
+web: gunicorn django_marvel.wsgi
