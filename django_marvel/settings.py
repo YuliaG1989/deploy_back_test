@@ -88,8 +88,8 @@ DATABASES = {
         'NAME': 'marvel',
         'USER': '',
         'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'HOST': 'localhost'
+        
     }
 }
 db_from_env = dj_database_url.config(conn_max_age=600) # add this
